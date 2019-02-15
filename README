@@ -9,6 +9,7 @@ Data folder related to the paper: ["Reconstructing Faces from fMRI Patterns usin
    *Task Names for BOLD runs. 
       * Face task: This consists of the main task during which subjects viewed unique face images on each trial.   
       * Localizer tasks: In addition, a few localizer runs were performed which consisted of blocks of faces and objects.
+
    * Events.tsv contains stimulus information for each run.
       * onset of each event
       * duration of each event.
