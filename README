@@ -2,9 +2,8 @@
 
 Data folder related to the paper: ["Reconstructing Faces from fMRI Patterns using Deep Generative Neural Networks"](https://arxiv.org/abs/1810.03856) by VanRullen &amp; Reddy (2019)
 
-
-
-### General: 4 participants participated in 8 (f)MRI sessions. Each of these 8 sessions consisted of between 11 and 13 runs.
+### General: 
+4 participants participated in 8 (f)MRI sessions. Each of these 8 sessions consisted of between 11 and 13 runs.
 
 ##The data folder for each participant is organized as follows:
 
