@@ -3,14 +3,14 @@
 Data folder related to the paper: ["Reconstructing Faces from fMRI Patterns using Deep Generative Neural Networks"](https://arxiv.org/abs/1810.03856) by VanRullen &amp; Reddy (2019)
 
 ### General: 
-4 participants participated in 8 (f)MRI sessions. Each of these 8 sessions consisted of between 11 and 13 runs.
+4 participants participated in 8 (f)MRI sessions. Each of these 8 sessions consisted of between 11 and 14 runs.
 
-##The data folder for each participant is organized as follows:
+### The data folder for each participant is organized as follows:
+
+* sub/ses/anat: contains the T1 anatomical scans (defaced) for this session. Most anat folders contain one T1.nii.gz file. However, when a subject was taken out of the scanner and re-positioned during a session, a second T1 scan was performed. As a result the anat folder for this session will contain two T1.nii.gz files.
+
+ 
+
+* sub/ses/func/: contains the *_bold.nii.gz and *-events.tsv files for each experimental run. Two types of tasks were performed:
 
 
-### This folder contains:
-* a pre-trained VAE-GAN model checkpoint 'vaegan_celeba.ckpt' (~15 epochs on CelebA dataset=50,000 batches of 64 images)
-* a set of .py functions for the VAE-GAN face decomposition/reconstruction model, in particular:
-  * VAEGAN_image2latent.py => goes from any image file to the corresponding 1024D latent encoding (saved as a Matlab .mat file)
-  * VAEGAN_latent2image.py => goes from a 1024D latent encoding (Matlab .mat file) to the corresponding image(s)
-* (optional) [a link to download the fMRI datasets](https://openneuro.org/datasets/ds001759) (4 subjects, each saw > 8,000 faces in the scanner) and some Matlab analysis code
