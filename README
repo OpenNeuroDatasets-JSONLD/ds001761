@@ -13,4 +13,20 @@ Data folder related to the paper: ["Reconstructing Faces from fMRI Patterns usin
 
 * sub/ses/func/: contains the *_bold.nii.gz and *-events.tsv files for each experimental run. Two types of tasks were performed:
 
+*  Face task: This consists of the main task during which subjects viewed unique face images on each trial.   
+
+*  Localizer tasks: In addition, a few localizer runs were performed which consisted of blocks of faces and objects.
+
+*  Events.tsv contains stimulus information for each run.
+*   onset of each event
+
+*   duration of each event.
+
+*   trial_type : "fix" (fixation trial), "train_face" (a face from the training set), "test_face" (a face from the test set), "img" (an imagery trial).
+
+*   stimulus: path to the stimulus that was displayed. The stimuli used during the experiment are in the stimulus folder.
+
+*   one_back: a code of 1 indicates that this was a one-back trial.
+
+
 
