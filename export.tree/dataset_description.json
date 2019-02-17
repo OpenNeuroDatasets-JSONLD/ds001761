@@ -1,9 +1,0 @@
-{
-    "Name": "VanRullen-Reddy-DeepFaceReconstruction Dataset",
-    "BIDSVersion": "1.0.2",
-    "Authors": ["VanRullen, R.", "Reddy, L."],
-    "Funding": ["ERC Consolidator Grant P-CYCLES (614244)", "Bial FoundationFrench", "ANR AI-REPS", "NVIDIA Corporation"],
-    "ReferencesAndLinks": ["VanRullen, R., & Reddy, L. (2018). Reconstructing Faces from fMRI Patterns using Deep Generative Neural Networks. arXiv preprint arXiv:1810.03856."],
-    "HowToAcknowledge": "Cite the paper.",
-    "Acknowledgements": "The authors would like to thank Dr. Isabelle Berry for subject screening, B.Cottereau for assistance with ethics approval, and the staff of the ImagingCenter, INSERM-UPS UMR825 MRI Platform."
-}
