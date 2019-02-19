@@ -11,6 +11,6 @@
     "ReferencesAndLinks": [
         "VanRullen, R., & Reddy, L. (2018). Reconstructing Faces from fMRI Patterns using Deep Generative Neural Networks. arXiv preprint arXiv:1810.03856."
     ],
-    "DatasetDOI": "",
+    "DatasetDOI": "10.18112/openneuro.ds001761.v1.0.3",
     "BIDSVersion": "1.0.2"
 }
