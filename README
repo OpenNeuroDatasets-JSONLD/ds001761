@@ -3,7 +3,7 @@ Data folder related to the paper: ["Reconstructing Faces from fMRI Patterns usin
 ### General: 
 4 participants participated in 8 (f)MRI sessions. Each of these 8 sessions consisted of between 11 and 14 runs.
 
-The stimuli folder contains the stimuli that were used on each trial (see  description of Events.tsv below).The stimuli folder also contains a file called ImageNames2Celeba.txt, which links each stimulus used with the original files in the celeba imageset.
+The stimuli folder contains the stimuli that were used on each trial (see description of Events.tsv below). The stimuli folder also contains a file called ImageNames2Celeba.txt, which links each stimulus with the original files in the celeba imageset.
 
 The derivatives folder : see the corresponding README file within the derivatives folder.
 
